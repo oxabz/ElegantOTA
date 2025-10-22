@@ -1,0 +1,29 @@
+description: "OTA updates made slick and simple for everyone! ElegantOTA is a library which provides an interactive portal for your over-the-air updates for wireless microcontrollers like ESP8266, ESP32, RP2040+W and RP2350+W."
+url: "https://github.com/ayushsharma82/ElegantOTA"
+license: "LGPL-3.0-or-later"
+tags:
+  - arduino
+files:
+  exclude:
+    - ".github/"
+    - "docs/"
+    - "docs/*"
+    - "examples/"
+    - "examples/**/*"
+    - ".gitattributes"
+    - ".gitignore"
+    - "CODE_OF_CONDUCT.md"
+    - "keywords.txt"
+    - "library.json"
+    - "library.properties"
+    - "platformio.ini"
+    - "README.md"
+    - "platformio_upload.py"
+dependencies:
+  espressif/arduino-esp32:
+    version: "^3.1.7"
+    require: public
+  esp32async/espasyncwebserver:
+    version: "^3.7.3"
+    require: public
+  
